@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Cargar datos simulados desde JSON (data.js)
-  fetch("data.js")
+  fetch("data.json")
     .then(res => res.json())
     .then(data => {
       movimientos = [...movimientos, ...data];
